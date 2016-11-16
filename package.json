@@ -4,7 +4,7 @@
   "description": "Bytesize Icons as React Components.",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+    "build": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/abdelhai/react-bytesize-icons#readme",
   "dependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
   },
   "devDependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
     "babel-cli": "^6.11.4",
     "babel-core": "^6.13.2",
     "babel-preset-es2015": "^6.13.2",
